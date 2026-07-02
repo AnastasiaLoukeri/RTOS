@@ -1,0 +1,15 @@
+[Unit]
+Description=Jetstream telemetry collector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=aloukeri
+WorkingDirectory=/home/aloukeri/telemetry
+ExecStart=/home/aloukeri/telemetry/telemetry
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

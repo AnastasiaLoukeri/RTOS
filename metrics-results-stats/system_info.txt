@@ -1,0 +1,14 @@
+Linux raspberrypi 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux
+---
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+---
+Revision	: 902120
+Model		: Raspberry Pi Zero 2 W Rev 1.0
+---
+ii  libcjson-dev:arm64                   1.7.18-3.1+deb13u1                   arm64        Ultralightweight JSON parser in ANSI C (development files)
+ii  libcjson1:arm64                      1.7.18-3.1+deb13u1                   arm64        Ultralightweight JSON parser in ANSI C
+ii  libwebsockets-dev:arm64              4.3.5-1+deb13u1                      arm64        lightweight C websockets library - development files
+ii  libwebsockets-evlib-ev:arm64         4.3.5-1+deb13u1                      arm64        lightweight C websockets library
+ii  libwebsockets-evlib-glib:arm64       4.3.5-1+deb13u1                      arm64        lightweight C websockets library
+ii  libwebsockets-evlib-uv:arm64         4.3.5-1+deb13u1                      arm64        lightweight C websockets library
+ii  libwebsockets19t64:arm64             4.3.5-1+deb13u1                      arm64        lightweight C websockets library
