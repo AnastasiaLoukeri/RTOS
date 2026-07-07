@@ -1,11 +1,16 @@
 Jun 28 19:36:02 raspberrypi systemd[1]: Started telemetry.service - Jetstream telemetry collector.
 Jun 28 19:36:03 raspberrypi telemetry[1254]: telemetry collector running. Ctrl-C (SIGINT) to stop.
 Jun 28 19:36:04 raspberrypi telemetry[1254]: [2026/06/28 19:36:04:0120] W: jetstream: connected
-Jul 01 00:01:46 raspberrypi telemetry[1254]: signal 15 received, shutting down...
+Jun 29 20:40:41 raspberrypi systemd[1]: telemetry.service: Main process exited, code=killed (power cycle)
+Jun 29 20:40:43 raspberrypi systemd[1]: telemetry.service: Scheduled restart, restarting.
+Jun 29 20:40:43 raspberrypi systemd[1]: Started telemetry.service - Jetstream telemetry collector.
+Jun 29 20:40:44 raspberrypi telemetry[7188]: telemetry collector running. Ctrl-C (SIGINT) to stop.
+Jun 29 20:40:45 raspberrypi telemetry[7188]: [2026/06/29 20:40:45:0210] W: jetstream: connected
+Jul 01 00:01:46 raspberrypi telemetry[7188]: signal 15 received, shutting down...
 Jul 01 00:01:46 raspberrypi systemd[1]: Stopping telemetry.service - Jetstream telemetry collector...
-Jul 01 00:01:46 raspberrypi telemetry[1254]: [2026/07/01 00:01:46:8327] W: jetstream: producer thread exiting
-Jul 01 00:01:47 raspberrypi telemetry[1254]: logger: 98464 ticks | jitter ms  min=0.027 mean=0.101 max=501.278
-Jul 01 00:01:47 raspberrypi telemetry[1254]: summary: enqueued=4712704 dropped(full)=0 oversized=907 unknown_kind=0 buffer_high_watermark=27/2048
+Jul 01 00:01:46 raspberrypi telemetry[7188]: [2026/07/01 00:01:46:8327] W: jetstream: producer thread exiting
+Jul 01 00:01:47 raspberrypi telemetry[7188]: logger: 98464 ticks | jitter ms  min=0.027 mean=0.101 max=501.278
+Jul 01 00:01:47 raspberrypi telemetry[7188]: summary: enqueued=4712704 dropped(full)=0 oversized=907 unknown_kind=0 buffer_high_watermark=27/2048
 Jul 01 00:01:47 raspberrypi systemd[1]: telemetry.service: Deactivated successfully.
 Jul 01 00:01:47 raspberrypi systemd[1]: Stopped telemetry.service - Jetstream telemetry collector.
 Jul 01 00:01:47 raspberrypi systemd[1]: telemetry.service: Consumed 37min 10.995s CPU time.
